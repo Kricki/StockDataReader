@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 
-with open('README.rst') as fp:
+with open('README.md') as fp:
     long_description = fp.read()
 
 CLASSIFIERS = """
@@ -25,6 +25,6 @@ setup(
     classifiers=[f for f in CLASSIFIERS.split('\n') if f],
     install_requires=['pandas',
                       'mechanicalsoup',
-                      'stdnum',
-                      'mechanicalsoup'],
+                      'python-stdnum',
+                      'numpy'],
 )
