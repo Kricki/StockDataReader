@@ -4,7 +4,7 @@ Read historic stock data
 ## Installation
 Clone or download repository and
 ````
-python setup.py install
+pip install stockdatatareader
 ````
 
 ## Example
