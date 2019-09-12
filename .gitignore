@@ -1,2 +1,6 @@
 
 \.idea/
+
+stockdatareader/__pycache__/
+
+examples/\.ipynb_checkpoints/
